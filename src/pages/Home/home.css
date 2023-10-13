@@ -1,0 +1,15 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.qr {
+  padding: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #fff;
+  background-color: black;
+  font-family: Poppins, serif;
+}

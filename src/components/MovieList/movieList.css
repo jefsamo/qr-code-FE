@@ -1,0 +1,12 @@
+.movies {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .movies {
+    grid-template-columns: 1fr;
+  }
+}
