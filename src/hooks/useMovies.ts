@@ -19,13 +19,15 @@ const useMovies = () => {
 
         const data = await res.json();
         setMovies(data);
+        console.log(isLoading);
+        console.log(error);
       } catch (error) {
         console.log(error);
       }
     };
 
     fetchMovies();
-  }, []);
+  }, [movies, error, isLoading]);
 
   return { movies };
 };
