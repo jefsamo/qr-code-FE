@@ -1,7 +1,10 @@
 .home {
   display: flex;
   justify-content: center;
-  margin: 40px 0;
+  flex-direction: column;
+  width: 40%;
+  max-width: 400px;
+  margin: 40px auto;
 }
 
 .qr {
@@ -12,4 +15,7 @@
   color: #fff;
   background-color: black;
   font-family: Poppins, serif;
+  width: 200px;
+  align-self: center;
+  cursor: pointer;
 }
