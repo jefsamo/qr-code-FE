@@ -5,3 +5,7 @@ export interface Props {
   image: string;
   overview: string;
 }
+
+export interface IMovie extends Props {
+  id: number;
+}

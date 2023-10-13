@@ -1,11 +1,7 @@
-import { Props } from "../../constants";
+import { IMovie } from "../../constants";
 import useMovies from "../../hooks/useMovies";
 import Movie from "../Movie/Movie";
 import "./movieList.css";
-
-interface IMovie extends Props {
-  id: number;
-}
 
 const MovieList = () => {
   const { movies } = useMovies();
